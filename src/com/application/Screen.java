@@ -27,5 +27,11 @@ public class Screen {
             }
             System.out.println();
         }
+        System.out.println("******************");
+        System.out.println("******************");
+    }
+
+    void simulateNextTurn(){
+
     }
 }
