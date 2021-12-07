@@ -15,7 +15,7 @@ public class Screen {
             for (int j = 0; j < SCREEN_WIDTH; j++) {
                 Random r = new Random();
                 boolean alive = r.nextBoolean();
-                gameScreen[i][j] = new Cell(i, j, false);
+                gameScreen[i][j] = new Cell(i, j, alive);
             }
         }
     }
