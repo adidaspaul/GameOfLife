@@ -1,5 +1,7 @@
 package com.application;
 
+import java.util.Random;
+
 public class Screen {
 
     public static final int SCREEN_HEIGHT = 20;
@@ -10,8 +12,8 @@ public class Screen {
     public Screen() {
         for (int i = 0; i < SCREEN_HEIGHT; i++) {
             for (int j = 0; j < SCREEN_WIDTH; j++) {
- //               System.out.println("i -- " + i);
-  //              System.out.println("j -- " + j);
+                Random r = new Random();
+                boolean isAlive = r.nextBoolean();
                 field[i][j] = new Cell(i, j, false);
             }
         }

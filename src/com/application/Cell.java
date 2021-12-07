@@ -1,8 +1,8 @@
 package com.application;
 
 public class Cell {
-    public static char ALIVE_CELL = '+';
-    public static char DEAD_CELL = '0';
+    public static char ALIVE_CELL = '0';
+    public static char DEAD_CELL = '-';
 
     protected boolean isAlive;
     protected int x;
