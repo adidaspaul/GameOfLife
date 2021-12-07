@@ -21,8 +21,9 @@ public class Screen {
         for (int i = 0; i < SCREEN_HEIGHT; i++) {
             for (int j = 0; j < SCREEN_WIDTH; j++) {
              Cell current = field[i][j];
-                System.out.println(current.printChar());
+                System.out.print(current.printChar() + " ");
             }
+            System.out.println();
         }
     }
 }
